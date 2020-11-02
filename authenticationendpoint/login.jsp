@@ -135,9 +135,12 @@
     %>
 </head>
 <body onload="checkSessionKey()">
-    <!-- text-translate -->
-    <div class="right-segment">
-        <a href="#">Tiếng Việt</a>
+    <div class="language">
+        <% if (langCode != null && langCode.equals("en")) { %>
+            <a onclick="setCookie('vi')" lang="vi">Việt Nam</a>
+        <%} else { %>
+            <a onclick="setCookie('en')" lang="en">English</a>
+        <% } %>
     </div>
     <main class="center-segment">
 

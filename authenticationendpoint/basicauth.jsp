@@ -329,7 +329,7 @@
 <%--            <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.general")%>--%>
 <%--        </a>--%>
 <%--    </div>--%>
-    <div class="ui divider hidden"></div>
+<%--    <div class="ui divider hidden"></div>--%>
 
     <div class="ui two column stackable grid center">
 <%--        <div class="column mobile center aligned tablet left aligned computer left aligned buttons tablet no-padding-left-first-child computer no-padding-left-first-child">--%>

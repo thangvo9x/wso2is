@@ -59,10 +59,4 @@
           location.reload();
       }
   </script>
-  <div style="position: absolute; top: 5px; right: 5px;">
-      <% if (langCode != null && langCode.equals("en")) { %>
-          <div style="font-size:18px"><a style="cursor: pointer;" onclick="setCookie('vi')" lang="vi">Việt Nam</a></div>
-      <%} else { %>
-          <div style="font-size:18px"><a style="cursor: pointer;" onclick="setCookie('en')" lang="en">English</a></div>
-      <% } %>
-  </div>
+

@@ -26,16 +26,17 @@
     }
 
     /*    style for header text */
-    .right-segment{
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 50px;
-        margin-top: 20px;
+    .language{
+        position: absolute;
+        top: 15px;
+        right: 15px;
     }
-    .right-segment a{
+    .language a{
+        cursor: pointer;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 14px;
+        font-size: 18px;
         text-decoration: underline;
         color: blue
     }
+
 </style>
