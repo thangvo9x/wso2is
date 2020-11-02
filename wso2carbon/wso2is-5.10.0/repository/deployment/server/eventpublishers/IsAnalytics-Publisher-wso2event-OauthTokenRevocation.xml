@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventPublisher
+  name="IsAnalytics-Publisher-wso2event-OauthTokenRevocation"
+  statistics="disable" trace="disable" xmlns="http://wso2.org/carbon/eventpublisher">
+  <from streamName="org.wso2.is.analytics.stream.OauthTokenRevocation" version="1.0.0"/>
+  <mapping customMapping="disable" type="wso2event"/>
+  <to eventAdapterType="wso2event">
+    <property name="username">admin</property>
+    <property name="protocol">thrift</property>
+    <property name="publishingMode">non-blocking</property>
+    <property name="publishTimeout">0</property>
+    <property name="receiverURL">tcp://localhost:7612</property>
+    <property encrypted="true" name="password">eyJjIjoiaEVGTFRBdEFtZjdHNml1SFN4VW45NjYydm1BbzV2YnBlTzU4YklIYzQyaDlQd3p3UENzd3NYd2dlVFE0NlNFaitNQ050eHd1V3dMYTlRVjZSbDJTNDRvNGc2QU5RMnBlT0E0TlRQaTdKM2hhSUFjcHpCSkJwcUl5QjczUU1ueTdsWU1jY2RsK01YZ1J3cEh1MU1DU3FrekhPVk41MEV4ZTBDK0lycWE4anJIOWRFOHRmWEVJOHhVSjJ2V1lmdWQwMC9ESXdNcHlGZlZnejZuZzhtMkVGWG01NU9LQkFwNVBCS0lzb1VvSGQrZkFlVjA0T2tTRk5KdlZBSjRSd01ySWdqbVR6cFFPNEJybis0OGUydmdUcmVucURVbVF5cTZGMWIyYVVRT3F5V3JHVDZlaThPckpweUV0ZVEzV1R6VDcrMHhZMDdvNWZjY2lybUpRdW9Lc2VRXHUwMDNkXHUwMDNkIiwidCI6IlJTQS9FQ0IvT0FFUHdpdGhTSEExYW5kTUdGMVBhZGRpbmciLCJ0cCI6IjU3RkYzOEQ5NzY2NEM3OTJGRjg4MDExNzFGMDQxOTFERUQ4ODc3OEQiLCJ0cGQiOiJTSEEtMSJ9</property>
+  </to>
+</eventPublisher>
