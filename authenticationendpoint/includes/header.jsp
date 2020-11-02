@@ -85,7 +85,7 @@
     main.center-segment > .ui.container > .ui.segment .segment-form .align-right {
         text-align: right;
     }
-
+    
     .cookie-policy-message {
         font-size: 14px;
     }
@@ -139,7 +139,7 @@
 
     main .ui.segment.toc ul.ui.list.nav > li.sub:before {
         content: "\2192";
-        margin-left: -w1em;
+        margin-left: -1em;
     }
 
     main .ui.segment.toc ul.ui.list.nav > li:hover a {

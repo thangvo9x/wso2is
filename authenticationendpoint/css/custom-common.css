@@ -275,8 +275,3 @@ input[type=reset].btn, .btn-primary + .btn{
     padding: 4px 10px;
     margin-bottom: 2px;
 }
-
-/* Custom CSS */
-#passwordRecoverLink{
-    text-decoration: underline;
-}

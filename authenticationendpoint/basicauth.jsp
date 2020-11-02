@@ -201,7 +201,7 @@
                 <input
                     type="text"
                     id="usernameUserInput"
-                    value=""
+                    value="<%=uns%>"
                     name="usernameUserInput"
                     tabindex="1"
                     placeholder="<%=AuthenticationEndpointUtil.i18n(resourceBundle, "username")%>"
