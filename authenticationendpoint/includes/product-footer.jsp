@@ -22,7 +22,7 @@
 <!-- footer -->
 <footer class="footer" style="text-align: center">
     <div class="container-fluid">
-        <p><%=AuthenticationEndpointUtil.i18n(resourceBundle, "welcome")%> &copy;
+        <p><%=AuthenticationEndpointUtil.i18n(resourceBundle, "wso2.identity.server")%> &copy;
             <script>document.write(new Date().getFullYear());</script>
         </p>
     </div>

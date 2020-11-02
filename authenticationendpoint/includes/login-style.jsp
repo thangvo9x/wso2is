@@ -14,6 +14,10 @@
         box-shadow:         3px 3px 3px 3px rgba(45, 45, 45, 0.1);
     }
 
+    .ui.header{
+        margin: 50px auto 30px;
+    }
+
     /* style for forgotPassword text */
     #passwordRecoverLink{
         color: blue;
